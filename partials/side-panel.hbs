@@ -14,15 +14,18 @@
         <hr class="panel-cover__divider panel-cover__divider--secondary" />
 
         <div class="navigation-wrapper">
-
-          <nav class="cover-navigation cover-navigation--primary">
-            <ul class="navigation">
-              <li class="navigation__item"><a href="/#blog" title="link to {{@blog.title}} blog" class="blog-button">Blog</a></li>
-            </ul>
-          </nav>
-
-          {{> social}}
-
+          <div>
+            <nav class="cover-navigation cover-navigation--primary">
+              <ul class="navigation">
+                <li class="navigation__item"><a href="/#blog" title="link to {{@blog.title}} blog" class="blog-button">博客</a></li>
+                <li class="navigation__item"><a href="http://project.mclss.com" target="_blank" title="我的项目">项目</a></li>
+                <li class="navigation__item"><a href="http://about.mclss.com" title="了解更多关于我">关于</a></li>
+              </ul>
+            </nav>
+          </div>
+          <div>
+            {{> social}}
+          </div>
         </div>
 
       </div>
