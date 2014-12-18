@@ -28,6 +28,7 @@
 
     {{! Styles and Scripts }}
     <link rel="stylesheet" type="text/css" href="{{asset "css/uno.css"}}" />
+    <link rel="stylesheet" type="text/css" href="{{asset "css/font-awesome.min.css"}}" />
 
     {{! Ghost Magic }}
     {{ghost_head}}
@@ -36,8 +37,8 @@
 <body class="{{body_class}} no-js">
 
     <span class="mobile btn-mobile-menu">
-        <i class="icon icon-list btn-mobile-menu__icon"></i>
-        <i class="icon icon-x-circle btn-mobile-close__icon hidden"></i>
+        <i class="fa fa-list btn-mobile-menu__icon"></i>
+        <i class="fa fa-angle-up btn-mobile-close__icon hidden"></i>
     </span>
 
     {{> side-panel}}
