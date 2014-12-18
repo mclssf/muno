@@ -321,9 +321,9 @@ hr {
   vertical-align: middle; }
 
 .panel-title {
-  margin: 0 0 5px 0;
-  font-size: 2.5em;
-  letter-spacing: 4px;
+  margin: 0 0 18px 0;
+  font-size: 2.8em;
+  letter-spacing: 5px;
   color: #FFF; }
 
 .panel-subtitle {
@@ -520,8 +520,9 @@ nav {
       opacity: 1; }
 
 .navigation--social {
-  margin-left: 1.5em; }
+  margin-left: 0em; }
   .navigation--social a {
+    border: 0px;
     padding: 6px 8px 6px 9px; }
     .navigation--social a .label {
       display: none; }
@@ -549,6 +550,9 @@ i {
   font-weight: normal;
   font-style: normal;
   font-size: 18px; }
+
+.social {
+  font-size: 25px; }
 
 .icon-social {
   font-family: 'entypo-social';
