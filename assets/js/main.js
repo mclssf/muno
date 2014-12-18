@@ -4,6 +4,7 @@ $(document).ready(function() {
 
   $('a.blog-button').click(function() {
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
+    $('.main-post-list').removeClass('hidden');
     currentWidth = $('.panel-cover').width();
     if (currentWidth < 960) {
       $('.panel-cover').addClass('panel-cover--collapsed');
